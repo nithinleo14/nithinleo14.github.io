@@ -1,0 +1,19 @@
+html, body {
+    min-height: 100%;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  .dummy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 122px;
+    margin: -61px 0 0 -100px;
+    text-align: center;
+    font: bold 16px/1.5 Calibri, serif; 
+  }
+  .self{
+      text-align: center;
+  }
