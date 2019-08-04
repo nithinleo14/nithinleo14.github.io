@@ -1,6 +1,7 @@
 body{
-    background-color: #1f1f1f;
-    color: aliceblue;
+    top:0;
+    left:0;
+    color: white;
     min-height: 100%;
 }
 
@@ -11,17 +12,32 @@ h1{
 #element{
     font-size: 0.8rem!important;
 }
-
+.bodyWrap{
+    top:0;
+    left:0;
+    padding: 0;
+    margin:0;
+    width: 100%;
+}
 .wrapper{
+    top:0;
+    left:0;
+    background-color: #1f1f1f;
     text-align: center;
-    position: absolute;
+    position: relative;
+    height: 100vh;
+    width:100%;
 
+}
+
+.texts{
+    position: relative;
+    /* margin-top: 30%; */
     top:30%;
     left:50%;
 
     transform: translateX(-50%);
 }
-
 
 /* ///////////////////////////// */
 
@@ -37,3 +53,9 @@ h1{
     font: bold 16px/1.5 Calibri, serif; 
   }
   
+
+
+.second {
+    background-color: cadetblue;
+    position: relative;
+}

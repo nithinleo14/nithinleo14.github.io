@@ -44,7 +44,7 @@ text1
 .delete(18)
 .type('Backend Developer')
 .delete(17)
-.type('<strong>Full-stack Developer</strong>').options({cursor:false})
+.type('<strong>Full-stack Developer</strong>');
 // .options({
 //     strings: ["Full-stack Developer", "Frontend Developer","Backend Developer"],
 //     speed: 50,
