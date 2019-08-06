@@ -1,4 +1,4 @@
-body{
+html, body{
     top:0;
     left:0;
     color: white;
@@ -18,11 +18,12 @@ h1{
     padding: 0;
     margin:0;
     width: 100%;
+    background-color: #1f1f1f;
 }
 .wrapper{
     top:0;
     left:0;
-    background-color: #1f1f1f;
+    /* background-color: #1f1f1f; */
     text-align: center;
     position: relative;
     height: 100vh;
@@ -55,7 +56,75 @@ h1{
   
 
 
-.second {
-    background-color: cadetblue;
+#about-page {
     position: relative;
+    /* height: 100vh; */
+    width:100%;
+    /* background-color: grey; */
+}
+#about-page .menu{
+    position: absolute;
+    /* background-color: cadetblue; */
+    top:20%;
+}
+#experience-page {
+    position: relative;
+    /* height: 100vh; */
+    width:100%;
+    /* background-color: rgb(155, 155, 248) */
+}
+#abilities-page {
+    position: relative;
+    /* height: 100vh; */
+    width:100%;
+    /* background-color: rgb(107, 57, 68); */
+}
+#projects-page {
+    position: relative;
+    /* height: 100vh; */
+    width:100%;
+    /* background-color: rgb(130, 211, 109); */
+}
+#contact-page {
+    position: relative;
+    /* height: 100vh; */
+    width:100%;
+    /* background-color: rgb(190, 204, 60); */
+}
+.menu-container{
+    /* position: sticky; */
+    position: sticky;
+    top:20%;
+    z-index:10;
+}
+.menu-block{
+    /* background-color: green;
+    position: sticky;
+    top:20%;
+    z-index:10; */
+    position: absolute;
+    left:3rem;
+    background-color: #0c0c0c;
+    /* background-color: green; */
+    text-align: center;
+}
+.menu-block h3{
+    margin: 0;
+    font-size: 1rem;
+    padding: 1.5rem 0.5rem;
+}
+
+.bar:after{
+    content: '';
+    display: block;
+    width: 250px;;
+    height: 5px;
+    margin:  3rem 14.5rem;
+    background-color: #5151ff;
+    
+}
+
+.about-content{
+    padding-left: 6rem;
+    padding-right: 3rem;
 }
