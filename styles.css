@@ -1,42 +1,58 @@
-html, body{
-    top:0;
-    left:0;
+html,
+body {
+    top: 0;
+    left: 0;
     color: white;
+    width: 100%;
+    height: 100%;
     min-height: 100%;
     background-color: #1f1f1f;
+    font-size: 16px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Lexend Deca', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Muli', sans-serif;*/
 }
 
+body {
+    position: relative
+}
 
-h1{
+#typeletters {
     font-size: 2.5rem!important
 }
-#element{
+
+#element {
     font-size: 0.8rem!important;
 }
-.bodyWrap{
-    top:0;
-    left:0;
+
+.bodyWrap {
+    top: 0;
+    left: 0;
     padding: 0;
-    margin:0;
+    margin: 0;
     width: 100%;
     background-color: #1f1f1f;
 }
-.wrapper{
-    top:0;
-    left:0;
+
+.wrapper {
+    top: 0;
+    left: 0;
     /* background-color: #1f1f1f; */
     text-align: center;
     position: relative;
     height: 100vh;
-    width:100%;
+    width: 100%;
 
 }
 
-.texts{
+.texts {
     position: relative;
     /* margin-top: 30%; */
-    top:30%;
-    left:50%;
+    top: 30%;
+    left: 50%;
 
     transform: translateX(-50%);
 }
@@ -53,79 +69,188 @@ h1{
     margin: -61px 0 0 -100px;
     text-align: center;
     font: bold 16px/1.5 Calibri, serif;
-  }
+}
 
 
 
 #about-page {
     position: relative;
     /* height: 100vh; */
-    width:100%;
+    width: 100%;
     /* background-color: grey; */
 }
-#about-page .menu{
+
+#about-page .menu {
     position: absolute;
     /* background-color: cadetblue; */
-    top:20%;
+    top: 20%;
 }
+
 #experience-page {
     position: relative;
     /* height: 100vh; */
-    width:100%;
+    width: 100%;
     /* background-color: rgb(155, 155, 248) */
+    /*padding-left: 6rem;*/
 }
+
 #abilities-page {
     position: relative;
     /* height: 100vh; */
-    width:100%;
+    width: 100%;
     /* background-color: rgb(107, 57, 68); */
 }
+
 #projects-page {
     position: relative;
     /* height: 100vh; */
-    width:100%;
+    width: 100%;
     /* background-color: rgb(130, 211, 109); */
 }
+
 #contact-page {
     position: relative;
     /* height: 100vh; */
-    width:100%;
+    width: 100%;
     /* background-color: rgb(190, 204, 60); */
 }
-.menu-container{
+
+.menu-container {
     /* position: sticky; */
     position: sticky;
-    top:20%;
-    z-index:10;
+    top: 20%;
+    z-index: 10;
 }
-.menu-block{
+
+#menu-block {
     /* background-color: green;
     position: sticky;
     top:20%;
     z-index:10; */
     position: absolute;
-    left:2rem;
+    left: 2rem;
     background-color: #0c0c0c;
     /* background-color: green; */
     text-align: center;
 }
-.menu-block h3{
+
+#menu-block h3 {
     margin: 0;
     font-size: 1rem;
     padding: 1.5rem 0.5rem;
 }
 
-.bar:after{
+.bar:after {
     content: '';
     display: block;
-    width: 250px;;
+    width: 250px;
+    ;
     height: 5px;
-    margin:  3rem 14.5rem;
+    margin: 1rem 8.5rem;
     background-color: #5151ff;
 
 }
 
-.about-content{
-    padding-left: 6rem;
-    padding-right: 3rem;
+/*.about-content {
+    */
+
+/*    padding-left: 6rem;*/
+
+/*    padding-right: 3rem;*/
+
+/*}*/
+
+.img-fluid {
+    display: block;
+    max-height: 300px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin: auto;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    /*align-self:center;*/
+}
+
+.activeMenuItem {
+    background-color: blue;
+    color: white;
+}
+
+div#image-cont {
+    align-self: center;
+}
+
+.menu {
+    /*padding-left: 6rem;*/
+}
+
+#profile {
+    font-weight: 900;
+    opacity: .3;
+    /* color: #484b4d; */
+    letter-spacing: 5px;
+}
+
+#profile-texts {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 15px;
+}
+
+#education,
+#career {
+    font-size: 1.8rem;
+    letter-spacing: 3.0px;
+    font-weight: 500;
+}
+
+#profile,
+#experience,
+#abilities,
+#projects,
+#contact {
+    font-size: 3.5rem;
+    font-weight: 900;
+    /* color: #78797a; */
+    letter-spacing: 5px;
+    opacity: 0.23;
+}
+
+.experience-content h4 {
+    font-weight: 300;
+}
+
+.grad-date {
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
+.edu-title {
+    letter-spacing: 1.65px;
+}
+
+.edu-desc {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.65px;
+}
+
+.exp-projects h5 {
+    font-weight: 400
+}
+
+
+.scroll1 {
+    position: relative;
+}
+
+.scroll1 ul.nav-pills {
+    top: 20px;
+    position: fixed;
+}
+
+.scroll1 div.col-8 div {
+    height: 500px;
 }
