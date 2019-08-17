@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>leoirus.in</title>
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Montserrat:200,400,700|Muli|Poppins:100,300,400,500,700,900|Roboto:100,400,700&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script> -->
 
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
         <div class="bodyWrap">
             <div class="wrapper container">
@@ -34,19 +35,47 @@
             <div class="contents">
                 <div class="menu-container">
                     <div id="menu-block">
-                        <a href="#profile">Profile</a>
-                        <a href="#experience">
-                            <h3>Experience</h3>
-                        </a>
-                        <a href="#abilities">
-                            <h3>Abilities</h3>
-                        </a>
-                        <a href="#projects">
-                            <h3>Projects</h3>
-                        </a>
-                        <a href="#contact">
-                            <h3>Contact</h3>
-                        </a>
+                        <nav class="navbar navbar-expand-lg" role="navigation">
+                            <div class="simplecontainer">
+
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav nav-pills ml-auto flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#about-page">Profile</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#experience-page">Experience</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#abilities-page">Abilities</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#projects-page">Projects</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact-page">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <!--<a href="#profile">Profile</a>-->
+                        <!--<a href="#experience">-->
+                        <!--    <h3>Experience</h3>-->
+                        <!--</a>-->
+                        <!--<a href="#abilities">-->
+                        <!--    <h3>Abilities</h3>-->
+                        <!--</a>-->
+                        <!--<a href="#projects">-->
+                        <!--    <h3>Projects</h3>-->
+                        <!--</a>-->
+                        <!--<a href="#contact">-->
+                        <!--    <h3>Contact</h3>-->
+                        <!--</a>-->
 
                         <!--<h3>Experience</h3>-->
                         <!--<h3>Abilities</h3>-->
@@ -55,10 +84,10 @@
                     </div>
                 </div>
 
-                <div data-spy="scroll" data-target="#menu-block" data-offset="10px" class="scrollspy-example">
+                <div>
                     <!--</div>-->
                     <div class="bar"></div>
-                    <div id="about-page" class="container px-5">
+                    <div id="about-page" class="container px-4">
                         <div class="about-content pl-5">
                             <h2 id="profile" class="pt-5 pb-4">PROFILE</h2>
                             <!--<h2>ABOUT</h2>-->
@@ -82,7 +111,7 @@
                         </div>
                     </div>
                     <div class="bar"></div>
-                    <div id="experience-page" class="container px-5">
+                    <div id="experience-page" class="container px-4">
                         <div class="experience-content pl-5">
                             <h2 id="experience" class="display-4 pt-5 pb-4">EXPERIENCE</h2>
                             <h4 id="education" class="pb-3">EDUCATION</h4>
@@ -154,7 +183,7 @@
                         </div>
                     </div>
                     <div class="bar"></div>
-                    <div id="abilities-page" class="container px-5">
+                    <div id="abilities-page" class="container px-4">
                         <div class="abilities-content pl-5">
                             <h2 id="abilities" class="display-4 py-5">ABILITIES</h2>
                             <!--<h2>ABILITIES</h2>-->
@@ -185,7 +214,7 @@
                         </div>
                     </div>
                     <div class="bar"></div>
-                    <div id="projects-page" class="container px-5">
+                    <div id="projects-page" class="container px-4">
                         <div class="project-content pl-5">
                             <h2 id="projects" class="py-5">PROJECTS</h2>
                             <!--<h2>PROJECTS</h2>-->
@@ -213,7 +242,7 @@
                         </div>
                     </div>
                     <div class="bar"></div>
-                    <div id="contact-page" class="container px-5">
+                    <div id="contact-page" class="container px-4">
                         <div class="contact-content pl-5">
                             <h2 id="contact" class="py-5">CONTACT</h2>
                             <!--<h2>CONTACT</h2>-->
@@ -245,83 +274,9 @@
 
 
             <!--////////////////////////////////-->
-            <div class="container">
-
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-                </div>
 
 
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Home</div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Profile</div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Messages</div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Settings</div>
-                </div>
-
-            </div>
-            <script>
-                $(document).ready(function() {
-                    $('body').scrollspy({ target: ".nav", offset: 100 });
-                });
-            </script>
-        </div>
-
-        <div class="container scroll1" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
-
-            <div class="container-fluid">
-                <div class="row">
-                    <nav class="col-sm-3 col-4" id="myScrollspy">
-                        <ul class="nav nav-pills flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#section1">Section 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#section2">Section 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#section3">Section 3</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Section 4</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#section41">Link 1</a>
-                                    <a class="dropdown-item" href="#section42">Link 2</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="col-sm-9 col-8">
-                        <div id="section1" class="bg-success">
-                            <h1>Section 1</h1>
-                            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                        </div>
-                        <div id="section2" class="bg-warning">
-                            <h1>Section 2</h1>
-                            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                        </div>
-                        <div id="section3" class="bg-secondary">
-                            <h1>Section 3</h1>
-                            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                        </div>
-                        <div id="section41" class="bg-danger">
-                            <h1>Section 4-1</h1>
-                            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                        </div>
-                        <div id="section42" class="bg-info">
-                            <h1>Section 4-2</h1>
-                            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!--///////////////////////////////////-->
+            <!--///////////////////////////////////-->
         </div>
 
         <!-- <div class="container">
