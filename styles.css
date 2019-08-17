@@ -38,6 +38,11 @@ body {
 }
 
 .wrapper {
+    background-color: #0e0e0e;
+
+}
+
+.wrapper .container {
     top: 0;
     left: 0;
     /* background-color: #1f1f1f; */
@@ -45,7 +50,6 @@ body {
     /*position: relative;*/
     height: 100vh;
     width: 100%;
-
 }
 
 .texts {
@@ -157,7 +161,7 @@ body {
     top:20%;
     z-index:10; */
     position: absolute;
-    left: 2rem;
+    left: 4.7rem;
     background-color: #0c0c0c;
     /* background-color: green; */
     text-align: center;
@@ -169,6 +173,14 @@ body {
 
 .nav-pills .nav-link {
     border-radius: 0rem;
+    /*background-color: #2189fa;*/
+    /*border-color: #2189fa;*/
+}
+
+.nav-pills .nav-link.active {
+    /*border-radius: 0rem;*/
+    /*background-color: #2189fa;*/
+    border-color: #2189fa;
 }
 
 .navbar {
@@ -187,7 +199,7 @@ body {
     ;
     height: 5px;
     /*margin: 1rem 8.5rem;*/
-    background-color: #5151ff;
+    background-color: #2189fa;
 
 }
 
@@ -207,7 +219,7 @@ body {
 
 .img-fluid {
     display: block;
-    max-height: 300px;
+    max-height: 350px;
     max-width: 100%;
     height: auto;
     width: auto;
@@ -241,13 +253,15 @@ div#image-cont {
     letter-spacing: 1px;
     word-spacing: 3px;
     font-size: 15px;
+    padding-bottom: 3rem;
 }
 
 #education,
 #career {
-    font-size: 1.8rem;
-    letter-spacing: 3.0px;
-    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    opacity: 0.8;
 }
 
 #profile,
@@ -263,7 +277,7 @@ div#image-cont {
 }
 
 .experience-content h4 {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .grad-date {
@@ -283,7 +297,7 @@ div#image-cont {
 }
 
 .exp-projects h5 {
-    font-weight: 400
+    font-weight: 300
 }
 
 
@@ -298,4 +312,25 @@ div#image-cont {
 
 .scroll1 div.col-8 div {
     height: 500px;
+}
+
+
+#profile-texts .btn1 {
+    background: none;
+    border: solid 2px #ffffff1c;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    margin: 50px 0 0;
+    display: inline-block;
+    -webkit-transition: ease all .4s;
+    -o-transition: ease all .4s;
+    transition: ease all .4s;
+}
+
+#profile-texts .btn1:hover {
+    background-color: #2189fa;
+    border-color: #2189fa;
 }
