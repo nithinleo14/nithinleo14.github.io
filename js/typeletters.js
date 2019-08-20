@@ -6,7 +6,7 @@
 let text1 = new TypeIt('#typeletters', {
     speed: 50,
     loop: false,
-    startDelay: 2500,
+    startDelay: 1500,
     // cursor:false,
     afterComplete: (instance) => {
         //-- Will fire after the entire instance has completed typing.
