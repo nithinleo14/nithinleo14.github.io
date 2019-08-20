@@ -55,7 +55,7 @@ body {
 .texts {
     position: relative;
     /* margin-top: 30%; */
-    top: 30%;
+    top: 40%;
     left: 50%;
 
     transform: translateX(-50%);
@@ -76,77 +76,7 @@ body {
 }
 
 
-/*#about-page {*/
 
-/*    position: relative;*/
-
-/* height: 100vh; */
-
-/*    width: 100%;*/
-
-/* background-color: grey; */
-
-/*}*/
-
-/*#about-page .menu {*/
-
-/*    position: absolute;*/
-
-/* background-color: cadetblue; */
-
-/*    top: 20%;*/
-
-/*}*/
-
-/*#experience-page {*/
-
-/*    position: relative;*/
-
-/* height: 100vh; */
-
-/*    width: 100%;*/
-
-/* background-color: rgb(155, 155, 248) */
-
-/*padding-left: 6rem;*/
-
-/*}*/
-
-/*#abilities-page {*/
-
-/*    position: relative;*/
-
-/* height: 100vh; */
-
-/*    width: 100%;*/
-
-/* background-color: rgb(107, 57, 68); */
-
-/*}*/
-
-/*#projects-page {*/
-
-/*    position: relative;*/
-
-/* height: 100vh; */
-
-/*    width: 100%;*/
-
-/* background-color: rgb(130, 211, 109); */
-
-/*}*/
-
-/*#contact-page {*/
-
-/*    position: relative;*/
-
-/* height: 100vh; */
-
-/*    width: 100%;*/
-
-/* background-color: rgb(190, 204, 60); */
-
-/*}*/
 
 .menu-container {
     /* position: sticky; */
@@ -161,7 +91,7 @@ body {
     top:20%;
     z-index:10; */
     position: absolute;
-    left: 4.7rem;
+    left: 3rem;
     background-color: #0c0c0c;
     /* background-color: green; */
     text-align: center;
@@ -204,8 +134,8 @@ body {
 }
 
 .bar {
-    padding-top: 4rem;
-    margin: 1rem 16rem;
+    padding-top: 5rem;
+    margin: 0rem 13rem;
 }
 
 /*.about-content {
@@ -257,7 +187,8 @@ div#image-cont {
 }
 
 #education,
-#career {
+#career,
+#contact-tex {
     font-size: 2.2rem;
     letter-spacing: 5px;
     font-weight: 600;
@@ -288,6 +219,7 @@ div#image-cont {
 
 .edu-title {
     letter-spacing: 1.65px;
+    font-size: 18px;
 }
 
 .edu-desc {
@@ -334,3 +266,187 @@ div#image-cont {
     background-color: #2189fa;
     border-color: #2189fa;
 }
+
+
+/*Carousel*/
+
+/*.carousel-control-prev:after {*/
+
+/*    content: '';*/
+
+/*    left: 10px;*/
+
+/*    display: block;*/
+
+/*    width: 20px;*/
+
+/*    height: 20px;*/
+
+/*    color: white;*/
+
+/*    background-color: white;*/
+
+/*    opacity: 1;*/
+
+/*}*/
+
+.project-content .col-md-5 .projDetails {
+    overflow-y: scroll;
+    height: 390px;
+}
+
+.project-content .col-md-5 .projDetails::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.project-content .col-md-5 h4 {
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.project-content .col-md-5 h6 {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.project-content .col-md-7 .img-fluid {
+    min-height: 100% !important;
+    /*min-height: 100% !important;*/
+    /*min-width: 100% !important;*/
+    /*margin: 0;*/
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    opacity: 0.5;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
+/***********Contact**********/
+
+#contact-page {
+    background: #090000;
+}
+
+.contact-content h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: grey;
+    padding: 0.3rem 0rem;
+    /*opacity: 0.6;*/
+}
+
+#contact-text {
+    font-size: 1.5rem;
+}
+
+.contact-content .container {
+    /*text-align: center;*/
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact-content .email {
+    display: grid!important;
+}
+
+.contact-content p,
+.contact-content a {
+    color: white;
+}
+
+/***********Contact End**********/
+
+/*********Footer************/
+
+.footer-container {
+    /*display: flex;*/
+}
+
+.footer-container .social {
+    /*width: 50px;*/
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 2rem;
+}
+
+.footer-container .social:hover {
+    background-color: white;
+    color: black;
+}
+
+.social a {
+    width: 100%;
+    height: 100%;
+}
+
+.social .fas,
+.social .fab {
+    font-size: 2rem;
+    color: #757575;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+
+    font-size: 0.8rem;
+    padding: 1.2rem;
+    margin: 0;
+}
+
+#footer {
+    text-align: center;
+}
+
+/***************Footer End****************/
+
+.segments {
+    padding-right: 6rem!important;
+    padding-left: 10rem!important;
+}
+
+
+/*******************Abilities*************/
+
+.abilities-row li {
+    list-style: none;
+    height: 40px;
+}
+
+.abilities-row .progress {
+    /*align-self: center;*/
+    /*max-width: 100px;*/
+}
+
+.abilities-row h5 {
+    padding: 1.5rem 0rem;
+    /*color: blue;*/
+}
+
+/*******************Abilities End*************/
+
+/*******************Project**********************/
+
+.yelpcamp {
+    min-height: 354px!important;
+}
+
+.yelpcamp-desc {
+    height: 291px!important;
+}
+
+/*******************Project**********************/
