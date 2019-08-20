@@ -41,6 +41,8 @@
                     <!--<h1 id="typedesgn" class="display-3"></h1>-->
                 </div>
             </div>
+
+            <a href="#about-page" class="chevron-a bg-primary"><i class="fas fa-chevron-down"></i></a>
         </div>
 
         <div class="contents">
@@ -723,10 +725,46 @@
     <!-- Typeit.js ENDS -->
 
     <script>
+        $(document).ready(function() {
+            // applyClickEvent();
+
+            $('.chevron-a').on('click', function(e) {
+                e.preventDefault();
+
+                if ($($.attr(this, 'href')).length > 0) {
+                    $('html, body').animate({
+                        scrollTop: $($.attr(this, 'href')).offset().top
+                    }, 400);
+                }
+                return false;
+            });
+            $('.up-button').on('click', function() {
+                // e.preventDefault();
+
+                // if ($($.attr(this, 'href')).length < 0) {
+                $('html, body').animate({ scrollTop: 0 }, 600);
+                // }
+                return false;
+            });
+        });
+
         function scrolltoTop() {
             console.log("mouse leave");
             $(".projDetails").animate({ scrollTop: 0 }, 600)
 
+        }
+
+        function applyClickEvent() {
+            $('a[href*=#]').on('click', function(e) {
+                e.preventDefault();
+
+                if ($($.attr(this, 'href')).length > 0) {
+                    $('html, body').animate({
+                        scrollTop: $($.attr(this, 'href')).offset().top
+                    }, 400);
+                }
+                return false;
+            });
         }
     </script>
 </body>

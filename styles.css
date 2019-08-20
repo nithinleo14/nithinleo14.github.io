@@ -61,6 +61,39 @@ body {
     transform: translateX(-50%);
 }
 
+.chevron-a {
+    height: 80px;
+    width: 103px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 3rem;
+    /*background-color: #222222;*/
+    text-align: center;
+    z-index: 6;
+}
+
+.chevron-a .fa-chevron-down {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+    animation: wiggle 1.2s linear infinite;
+}
+
+@keyframes wiggle {
+    0% {
+        padding-top: 20px;
+    }
+
+    50% {
+        padding-top: 28px;
+    }
+    100% {
+        padding-top: 20px;
+    }
+}
+
 /* ///////////////////////////// */
 
 .dummy {
