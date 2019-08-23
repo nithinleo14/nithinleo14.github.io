@@ -11,12 +11,8 @@ let text1 = new TypeIt('#typeletters', {
     afterComplete: (instance) => {
         //-- Will fire after the entire instance has completed typing.
         //-- NOTE: If "loop" is enabled, this will never fire.
-        console.log('running')
-        new TypeIt('#typedesgn', {
-            strings: 'fsdfsf',
-            speed: 50,
-            loop: true,
-        })
+
+
     },
 });
 

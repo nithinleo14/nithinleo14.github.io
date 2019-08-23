@@ -18,7 +18,9 @@
     <!--------->
 
     <!--FontAwesome-->
-    <script src="https://kit.fontawesome.com/2565eceb76.js"></script>
+    <script src="./js/2565eceb76.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/solid.css"></script>-->
+    <!--<script src="https://kit.fontawesome.com/2565eceb76.js"></script>-->
 
     <!--///////-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -586,18 +588,18 @@
                             <div class="col-md-7">
                                 <img src="./assets/moviedb.gif" alt="MovieDB" class="img-fluid">
                             </div>
-                            <div class="col-md-5 new" onmouseleave="scrolltoTop()">
-                                <div class="urls d-flex justify-content-between mb-4">
-                                    <a href="https://moviedb.leoirus.in" class="btn btn-primary" role="button"> MovieDB  <i class="fas fa-external-link-alt pl-1"></i></a>
-                                    <a href="https://github.com/nithinleo14/moviedb" class="btn btn-dark" role="button"><i class="fab fa-github pr-1"></i> View Code</a>
+                            <div class="col-md-5 new">
+                                <div class="urls d-flex justify-content-between mb-4 ">
+                                    <a href="https://moviedb.leoirus.in " class="btn btn-primary " role="button" target="_blank"> MovieDB  <i class="fas fa-external-link-alt pl-1 "></i></a>
+                                    <a href="https://github.com/nithinleo14/moviedb " class="btn btn-dark " role="button" target="_blank"><i class="fab fa-github pr-1 "></i> View Code</a>
 
                                 </div>
-                                <div class="projDetails" onmouseleave="scrolltoTop()">
+                                <div class="projDetails " onmouseleave="scrolltoTop() ">
                                     <h4>MovieDB</h4>
-                                    <p class="edu-desc">MovieDB is a responsive and intuitive Web Application to find the favourite movies and its details. Built as a mobile-first layout and also has other layouts for Tablets, Desktops and Extra Large screens.</p>
+                                    <p class="edu-desc ">MovieDB is a responsive and intuitive Web Application to find the favourite movies and its details. Built as a mobile-first layout and also has other layouts for Tablets, Desktops and Extra Large screens.</p>
                                     <h6>Build Stack</h6>
-                                    <p class="edu-desc">NodeJS, ExpressJS, Mongoose.js, MongoDB, Bootstrap, jQuery, JavaScript, HTML, CSS, AWS EC2</p>
-                                    <ul class="edu-desc">
+                                    <p class="edu-desc ">NodeJS, ExpressJS, Mongoose.js, MongoDB, Bootstrap, jQuery, JavaScript, HTML, CSS, AWS EC2</p>
+                                    <ul class="edu-desc ">
                                         <li>MovieDB uses Bootstrap4 for a mobile-first layout, with jQuery for easy page manipulation. </li>
                                         <li>On the backend an Express/Node.js app lives on AWS Cloud EC2 with web server NGINX </li>
                                         <li>MongoDB created as ReplicaSets in 3 different Private EC2s with no access to the internet on AWS for High Data Availability and Security interacts with the app using Mongoose.js and returns the information to the
@@ -607,31 +609,29 @@
                                     </ul>
                                     <p>Note: Now MovieDB lives on Heroku from which it connects to DB hosted on MongoDB Atlas(A cloud MongoDB service)</p>
                                 </div>
-
-
                             </div>
                         </div>
 
-                        <hr class="my-5">
+                        <hr class="my-5 ">
 
-                        <div class="row py-3">
-                            <div class="col-md-7">
-                                <img src="./assets/yelpcamp.gif" alt="MovieDB" class="img-fluid yelpcamp">
+                        <div class="row py-3 ">
+                            <div class="col-md-7 " onmouseleave='mouseOutofImg()'>
+                                <img src="./assets/yelpcamp.gif " alt="MovieDB " class="img-fluid yelpcamp ">
                             </div>
-                            <div class="col-md-5 new">
-                                <div class="urls d-flex justify-content-between mb-4">
-                                    <a href="https://yelpcamp.leoirus.in" class="btn btn-primary" role="button"> YelpCamp  <i class="fas fa-external-link-alt pl-1"></i></a>
-                                    <a href="https://github.com/nithinleo14/yelpcamp" class="btn btn-dark" role="button"><i class="fab fa-github pr-1"></i> View Code</a>
+                            <div class="col-md-5 new ">
+                                <div class="urls d-flex justify-content-between mb-4 ">
+                                    <a href="https://yelpcamp.leoirus.in " class="btn btn-primary " role="button" target="_blank"> YelpCamp  <i class="fas fa-external-link-alt pl-1 "></i></a>
+                                    <a href="https://github.com/nithinleo14/yelpcamp" class="btn btn-dark " role="button" target="_blank"><i class="fab fa-github pr-1 "></i> View Code</a>
 
                                 </div>
 
-                                <div class="projDetails yelpcamp-desc" onmouseleave="scrolltoTop()">
+                                <div class="projDetails yelpcamp-desc " onmouseleave="scrolltoTop() ">
                                     <h4>YelpCamp</h4>
-                                    <p class="edu-desc">YelpCamp is a Web Application implemented using MongoDB, ExpressJS, NodeJS and Bootstrap technologies which displays the campground details, the user ratings, comments. This application implements MongoDB CRUD (Create,
+                                    <p class="edu-desc ">YelpCamp is a Web Application implemented using MongoDB, ExpressJS, NodeJS and Bootstrap technologies which displays the campground details, the user ratings, comments. This application implements MongoDB CRUD (Create,
                                         Read, Update & Delete) operations by using Mongoose library in Node-JS. Application uses Passport.js authentication for user login so that the user can add/edit/delete their own campgrounds.</p>
                                     <h6>Build Stack</h6>
-                                    <p class="edu-desc">NodeJS, ExpressJS, Mongoose.js, MongoDB, Bootstrap, Passport.js, jQuery, JavaScript, HTML, CSS, Heroku, mLab</p>
-                                    <ul class="edu-desc">
+                                    <p class="edu-desc ">NodeJS, ExpressJS, Mongoose.js, MongoDB, Bootstrap, Passport.js, jQuery, JavaScript, HTML, CSS, Heroku, mLab</p>
+                                    <ul class="edu-desc ">
                                         <li>YelpCamp uses Bootstrap3. Backend is an Express/Node.js app hosted on Heroku. </li>
                                         <li>YelpCamp uses Mongoose.js library for the MongoDB database hosted on mLab to store the app data. User can sign and singup using the Passport.js library authentication as middleware.</li>
                                         <li>Application has CRUD (Create, Read, Update & Delete) operations which lets the logged in user to create, update and delete their own campgrounds.
@@ -647,49 +647,52 @@
 
                     </div>
                 </div>
-                <div class="bar"></div>
-                <div id="contact-page" class="container-fluid segments px-5">
-                    <div class="contact-content pl-5">
-                        <h2 id="contact" class="py-5">CONTACT</h2>
+                <div class="bar "></div>
+                <div id="contact-page " class="container-fluid segments px-5 ">
+                    <div class="contact-content pl-5 ">
+                        <h2 id="contact " class="py-5 ">CONTACT</h2>
                         <!--<h2>CONTACT</h2>-->
-                        <h4 class="">Don't be a stranger</h4>
-                        <h4 class="">Just say <span class="text-primary">Hello.</span></h4>
-                        <h4 id="contact-text" class="d-flex justify-content-start pt-5">GET IN TOUCH</h4>
-                        <div class="container">
-                            <p class="py-3 m-0"> <i class="fas fa-phone-alt px-2"></i> +91 9445368112</p>
+                        <h4 class=" ">Don't be a stranger</h4>
+                        <h4 class=" ">Just say <span class="text-primary ">Hello.</span></h4>
+                        <h4 id="contact-text " class="d-flex justify-content-start pt-5 ">GET IN TOUCH</h4>
+                        <div class="container ">
+                            <p class="py-3 m-0 "> <i class="fas fa-phone-alt px-2 "></i> +91 9445368112</p>
                             <!--<hr>-->
 
-                            <!--<div class="row p-4">-->
-                            <!--<div class="col-md-6">-->
-                            <div class="email py-2 mb-4">
+                            <!--<div class="row p-4 ">-->
+                            <!--<div class="col-md-6 ">-->
+                            <div class="email py-2 mb-4 ">
 
-                                <a href="mailto:nithin.leo14@gmail.com?Body=Hi%20Nithin," class=""><i class="fas fa-envelope px-2"></i> nithin.leo14@gmail.com</a>
+                                <a href="mailto:nithin.leo14@gmail.com?Body=Hi%20Nithin, " class=" "><i class="fas fa-envelope px-2 "></i> nithin.leo14@gmail.com</a>
                                 <!--</div>-->
-                                <!--<div class="col-md-6">-->
-                                <a href="mailto:nithin@leoirus.in?Body=Hi%20Nithin," class="pt-2"><i class="fas fa-envelope px-2"></i> nithin@leoirus.in</a>
+                                <!--<div class="col-md-6 ">-->
+                                <a href="mailto:nithin@leoirus.in?Body=Hi%20Nithin, " class="pt-2 "><i class="fas fa-envelope px-2 "></i> nithin@leoirus.in</a>
 
                             </div>
                             <hr>
                             <!--</div>-->
                             <!--</div>-->
 
-                            <div id="footer" class="footer-segment p-3">
+                            <div id="footer " class="footer-segment p-3 ">
 
-                                <footer class="footer-container d-flex justify-content-center p-3">
+                                <footer class="footer-container d-flex justify-content-center p-3 ">
 
-                                    <div class="social linkedin"><a href="https://www.linkedin.com/in/nithinleo14/" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
-                                    <div class="social github"><a href="https://github.com/nithinleo14/" data-toggle="tooltip" data-placement="top" title="GitHub"><i class="fab fa-github"></i></a></div>
-                                    <div class="social facebook"><a href="https://www.facebook.com/nithin.leo" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fab fa-facebook-f"></i></a></div>
-                                    <div class="social twitter"><a href="https://twitter.com/nithin_leo" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></div>
-                                    <!--<div class="social googleplus"><i class="fab fa-google-plus-g"></i></div>-->
-                                    <!--<div class="social mail"><i class="fas fa-envelope"></i></div>-->
-                                    <!--<div class="social bitbucket"><i class="fab fa-bitbucket"></i></div>-->
-                                    <!--<div class="social bitbucket"><i class="fab fa-stack-overflow"></i></div>-->
+                                    <div class="social linkedin "><a href="https://www.linkedin.com/in/nithinleo14/ " data-toggle="tooltip " data-placement="top " title="LinkedIn "><i class="fab fa-linkedin-in "></i></a></div>
+                                    <div class="social github "><a href="https://github.com/nithinleo14/ " data-toggle="tooltip " data-placement="top " title="GitHub "><i class="fab fa-github "></i></a></div>
+                                    <div class="social facebook "><a href="https://www.facebook.com/nithin.leo " data-toggle="tooltip " data-placement="top " title="Facebook "><i class="fab fa-facebook-f "></i></a></div>
+                                    <div class="social twitter "><a href="https://twitter.com/nithin_leo " data-toggle="tooltip " data-placement="top " title="Twitter "><i class="fab fa-twitter "></i></a></div>
+                                    <!--<div class="social googleplus "><i class="fab fa-google-plus-g "></i></div>-->
+                                    <!--<div class="social mail "><i class="fas fa-envelope "></i></div>-->
+                                    <!--<div class="social bitbucket "><i class="fab fa-bitbucket "></i></div>-->
+                                    <!--<div class="social bitbucket "><i class="fab fa-stack-overflow "></i></div>-->
 
 
                                 </footer>
-                                <a class="up-button" href="#" style=""><i class="fas fa-chevron-up"></i></a>
+                                <div class="ending-cred">
+
+                                <a class="up-button " href="#" style=""><i class="fas fa-chevron-up "></i></a>
                                 <p>Created by Nithin A N (leoirus)</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -704,9 +707,9 @@
         <!--///////////////////////////////////-->
     </div>
 
-    <!-- <div class="container">
+    <!-- <div class="container ">
         <h6>Joke :</h6>
-        <h1 id="element" class="display-4"></h1>
+        <h1 id="element " class="display-4 "></h1>
     </div> -->
 
 
@@ -714,14 +717,14 @@
 
 
     <!-- Bootstrap CDN -->
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 
     <!-- ***************Typeit.js *************-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
-    <!-- <script src="typeit.min.js"></script> -->
-    <script src="./js/typeletters.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js "></script>
+    <!-- <script src="typeit.min.js "></script> -->
+    <script src="./js/typeletters.js "></script>
     <!-- Typeit.js ENDS -->
 
     <script>
@@ -749,23 +752,36 @@
         });
 
         function scrolltoTop() {
-            console.log("mouse leave");
-            $(".projDetails").animate({ scrollTop: 0 }, 600)
+            console.log("mouse leave ");
+            $(".projDetails ").animate({ scrollTop: 0 }, 600)
 
         }
 
-        function applyClickEvent() {
-            $('a[href*=#]').on('click', function(e) {
-                e.preventDefault();
+        // function applyClickEvent() {
+        //     $('a[href*=#]').on('click', function(e) {
+        //         e.preventDefault();
 
-                if ($($.attr(this, 'href')).length > 0) {
-                    $('html, body').animate({
-                        scrollTop: $($.attr(this, 'href')).offset().top
-                    }, 400);
-                }
-                return false;
-            });
+        //         if ($($.attr(this, 'href')).length > 0) {
+        //             $('html, body').animate({
+        //                 scrollTop: $($.attr(this, 'href')).offset().top
+        //             }, 400);
+        //         }
+        //         return false;
+        //     });
+        // }
+
+        function mouseOutofImg() {
+            $('.project-content .new').css('visibility', 'hidden!important');
         }
+
+        $('.project-content .col-md-7').hover(() => {
+                $('.project-content .new').css('visibility', 'visible');
+            }
+            // () => {
+            //     $('.project-content .new').css('visibility', 'hidden');
+
+            // }
+        )
     </script>
 </body>
 
