@@ -55,6 +55,7 @@ body {
     position: relative;
     z-index: 5;
     height: 100vh;
+    height: calc(var(--vh, 1vh)*100);
 }
 
 .wrapper .container {
