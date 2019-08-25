@@ -22,7 +22,7 @@ text1
     // .pause(1500)
     .options({ speed: 200 })
     .type('Hi.')
-    .pause(1500)
+    .pause(800)
     // .options({
     //     speed: 200
     // })
@@ -39,15 +39,15 @@ text1
     .delete(18)
     .type('Backend Developer')
     .delete(17)
-    .type('<strong>Full Stack Developer</strong>');
-// .options({
-//     strings: ["Full-stack Developer", "Frontend Developer","Backend Developer"],
-//     speed: 50,
-//     breakLines: false,
-//     waitUntilVisible: true,
-//     // loop:true
-// })
-// .go();
+    .type('<strong>Full Stack Developer</strong>')
+    // .options({
+    //     strings: ["Full-stack Developer", "Frontend Developer","Backend Developer"],
+    //     speed: 50,
+    //     breakLines: false,
+    //     waitUntilVisible: true,
+    //     // loop:true
+    // })
+    .go();
 
 
 
