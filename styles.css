@@ -295,6 +295,11 @@ div#image-cont {
     font-weight: 300
 }
 
+cite {
+    font-size: 0.8rem;
+    color: grey;
+}
+
 
 .scroll1 {
     position: relative;
