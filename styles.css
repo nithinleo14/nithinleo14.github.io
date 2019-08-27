@@ -297,7 +297,8 @@ div#image-cont {
 
 cite {
     font-size: 0.8rem;
-    color: grey;
+    /*color: grey;*/
+    opacity: 0.4;
 }
 
 
