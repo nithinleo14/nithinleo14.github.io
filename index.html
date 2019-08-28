@@ -753,6 +753,7 @@
         function applyClickEvent() {
             $('a[href*="#"]').click('click', function() {
                 // e.preventDefault();
+
                 if ($($.attr(this, 'href')).length > 0) {
                     $('html, body').animate({
                         scrollTop: $($.attr(this, 'href')).offset().top
