@@ -716,7 +716,7 @@
             });
 
             $('.up-button').on('click', function() {
-                e.preventDefault();
+                // e.preventDefault();
 
                 // if ($($.attr(this, 'href')).length < 0) {
                 $('html, body').animate({ scrollTop: 0 }, 600);
@@ -751,7 +751,7 @@
         }
 
         function applyClickEvent() {
-            $('a[href*="#"]').click('click', function() {
+            $('a[href*="#"]').click('click', function(e) {
                 e.preventDefault();
 
                 if ($($.attr(this, 'href')).length > 0) {
