@@ -722,23 +722,23 @@
                 // }
                 return false;
             });
-            applyClickEvent();
+            // applyClickEvent();
 
-            // $('a[href*=#]').on('click', function(e) {
-            //     // e.preventDefault();
+            $('a[href*="#"]').on('click', function(e) {
+                // e.preventDefault();
 
-            //     // if ($($.attr(this, 'href')).length > 0) {
-            //     $('html, body').animate({
-            //         scrollTop: $($.attr(this, 'href')).offset().top
-            //     }, 600);
-            //     // }
-            //     return false;
-            // });
+                // if ($($.attr(this, 'href')).length > 0) {
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 600);
+                // }
+                return false;
+            });
 
-            // window.addEventListener('resize', () => {
-            //     let vh = window.innerHeight * 0.01;
-            //     document.documentElement.style.setProperty('--vh', `${vh}px`);
-            // });
+            window.addEventListener('resize', () => {
+                let vh = window.innerHeight * 0.01;
+                document.documentElement.style.setProperty('--vh', `${vh}px`);
+            });
 
 
         });
@@ -750,17 +750,17 @@
         }
 
         // function applyClickEvent() {
-            //     $('a[href*="#"]').click('click', function(e) {
-            //         e.preventDefault();
-        
-            //         if ($($.attr(this, 'href')).length > 0) {
-            //             $('html, body').animate({
-            //                 scrollTop: $($.attr(this, 'href')).offset().top
-            //             }, 400);
-            //         }
-            //         return false;
-            //     });
-            // }
+        //         $('a[href*="#"]').click('click', function(e) {
+        //             e.preventDefault();
+
+        //             if ($($.attr(this, 'href')).length > 0) {
+        //                 $('html, body').animate({
+        //                     scrollTop: $($.attr(this, 'href')).offset().top
+        //                 }, 400);
+        //             }
+        //             return false;
+        //         });
+        //     }
         //
 
         // $(function() {
